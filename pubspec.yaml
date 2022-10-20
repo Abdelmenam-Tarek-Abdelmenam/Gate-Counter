@@ -1,0 +1,49 @@
+name: gate_counter
+description: Gate Counter Project for EME-IH Borg
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0-170.0.dev <3.0.0'
+
+dependencies:
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  # desktop designs
+  bitsdojo_window: ^0.1.5
+#  desktop: ^3.1.5 # https://adrianos42.github.io/desktop/#/
+  shared_preferences: ^2.0.15
+  # bloc
+  flutter_bloc: ^8.1.1
+  bloc: ^8.1.0
+  equatable: ^2.0.5
+  #styles
+  google_fonts: ^3.0.1
+  flutter_screenutil: ^5.5.4
+  #widgets
+  flutter_svg: ^1.1.5
+  fl_chart: ^0.55.0
+  #additinal
+  url_launcher: ^6.1.6
+  intl: ^0.17.0
+  dio: ^4.0.6
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
